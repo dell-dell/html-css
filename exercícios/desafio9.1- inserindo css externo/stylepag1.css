@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(7, 47, 82);
+    font-family: cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  h1 {
+    margin-left: 110pt;
+    color: blanchedalmond;
+  }
+  h2 {
+    margin-left: 110pt;
+    color: blanchedalmond;
+  }
+  img {
+    margin-left: 193pt;
+  }
+  p {
+    margin-left: 195pt;
+    color: blanchedalmond;
+  }

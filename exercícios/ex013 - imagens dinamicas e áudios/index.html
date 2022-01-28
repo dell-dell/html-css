@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    
+    <!--Uso de imagens dinâmicas para vários tamanhos de telas(pcs, tablets e celulares.)-->
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/familia-p.png">
+        <source media="(max-width: 1050px)" srcset="imagens/Photo-4.png">
+        <img src="imagens/Photo-3.png" alt="imagem flaxível">
+    </picture>
+     
+     <!--Colocar áudio no site-->
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios com HTML5</p>
+    <audio src="midia/Meu Coração É Teu .mp3.mp3" controls autoplay></audio>
+    <audio src="midia/projeto-casa.mp3.mp3" controls autoplay></audio>
+    <!--Para ter compatiblidade com todos os navegadores é importante colocar os arquivos em basicamente 3 formatos diferentes(MP3 - WAV - OGG)-->
+
+    <!--Outra maneira de adicionar arquivos de áudio e vários formatos diferentes.-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Meu Coração É Teu .mp3.mp3" type="audio/mpeg">
+        <source src="midia/Meu Coração É Teu .mp3.ogg" type="audio/ogg">
+        <source src="midia/Meu Coração É Teu .mp3.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/Meu Coração É Teu .mp3.mp3"> Clique aqui pra baixar o arquivo.</a></p>
+    </audio>
+</body>
+</html>

@@ -1,0 +1,23 @@
+@charset "UTF8";
+
+body {
+  background-color: hsl(246, 90%, 20%);
+  font-family: cursive;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  margin-left: 55pt;
+  color: blanchedalmond;
+}
+h3 {
+  color: blanchedalmond;
+  margin-left: -2%;
+}
+h4 {
+  color: blanchedalmond;
+  margin-left: 02%;
+}
