@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Posicionamento</title>
+  </head>
+  <style>
+    body {
+      height: 98vh;
+      background-image: url("imagens/java-logo-vert-blk.png"); /*Div do meio*/
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    div#a1 {
+      position: absolute;
+      margin-left: 83%; /*Div do lado direito superior*/
+      margin-bottom: 80%;
+    }
+    div#a2 {
+      position: absolute;
+      margin-left: 83%; /*Div do lado direito inferior*/
+      margin-top: 52%;
+    }
+    div#a3 {
+      position: absolute;
+      margin-right: 10%; /*Div do lado esquerdo inferior*/
+      margin-top: 52%;
+    }
+    H2 {
+      position: absolute;
+      margin-top: 23%; /*texto div do cantro*/
+      margin-left: 26%;
+    }
+  </style>
+  <body>
+    <h2>POSICIONANDO AS DIVS EM TODAS AS POSIÇÕES</h2>
+    <div class="position" id="a1">
+      <img src="imagens/java-logo-vert-blk.png" />
+    </div>
+    <div class="position" id="a2">
+      <img src="imagens/java-logo-vert-blk.png" />
+    </div>
+    <div class="position" id="a3">
+      <img src="imagens/java-logo-vert-blk.png" />
+    </div>
+    
+    <!--Div do lado esquerdo superior(posição inicial padrão)-->
+    <div class="position" id="a4">
+      <img src="imagens/java-logo-vert-blk.png" />
+    
+    </div>
+  </body>
+</html>
