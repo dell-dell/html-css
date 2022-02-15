@@ -1,10 +1,15 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2? family= Festive & display=swap');
+@import url("https://fonts.googleapis.com/css2? family= Festive & display=swap");
+
+@import url("https://fonts.googleapis.com/css2? family= Akaya+Telivigala & display=swap");
+
+@import url('https://fonts.googleapis.com/css2? family= Dancing+Script:wght@400;500;600;700 & display=swap');
 
 :root {
-
-    --fonte1: 'Festiva', cursiva;
+  --fonte1: 'Festiva', cursiva;
+  --fonte2: 'Akaya Telivigala', cursiva;
+  --fonte3: 'Dancing Script', cursiva;
 }
 
 * {
@@ -12,9 +17,8 @@
   padding: 0px;
 }
 
-html,
-body {
-  font-family: var(--fonte1);
+html, body {
+  font-family: var(--fonte2);
   min-height: 100vh;
   background-color: darkgray;
 }
@@ -25,9 +29,9 @@ header {
   text-align: center;
 }
 header > h1 {
+    font-family: var(--fonte3);
   padding-top: 50px;
   font-variant: small-caps;
-  font-family: var(--fonte2);
 }
 
 header > p {
@@ -51,7 +55,6 @@ section {
   padding-bottom: 10vh;
   line-height: 2em;
   padding-left: 30px;
-  font-family: var(--fonte3);
 }
 
 section.normal {
@@ -74,5 +77,4 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
-  
 }
