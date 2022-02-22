@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 2%;
+        }
+
+        h1 {
+            margin-left: 4%;
+        }
+
+        h3 {
+            margin-left: -1%;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        .num {
+            width: 50px;
+        }
+
+        .total {
+            text-align: right;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+    
+        }
+
+        thead, tfoot {
+            background-color: rgb(89, 88, 88);
+            color: white;        
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <h3>Click nas bandeiras para informações sobre cada Estado</h3>
+    
+    <hr>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+          THEAD
+            TR, TD, TH
+          TBODY
+            TR, TD, TH
+          TFOOT
+            TR, TD, TH
+    -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="num">1º</td>
+                <td><a href="https://www.saopaulo.sp.gov.br/" target="_blank"><img src="imagens/saopaulo1.png"></a> São Paulo</img></a></td>
+                <td class="total">41 262 199</td>
+            </tr>
+            <tr>
+                <td>2º</td>
+                <td><a href="https://www.mg.gov.br/" target="_blank"><img src="imagens/minas.png"></a> Minas Gerais</img></td>
+                <td class="total">19 597 330</td>
+            </tr>
+            <tr>
+                <td>3º</td>
+                <td><a href="http://www.rj.gov.br/" target="_blank"><img src="imagens/riojaneiro.jpg"></a> Rio de Janeiro</img></td>
+                <td class="total">15 989 929</td>
+            </tr>
+            <tr>
+                <td>4º</td>
+                <td><img src="imagens/bahia.png"> Bahia</img></td>
+                <td class="total">14 016 906</td>
+            </tr>
+            <tr>
+                <td>5º</td>
+                <td><img src="imagens/parana.png"> Paraná</img></td>
+                <td class="total">10 444 526</td>
+            </tr>
+            <tr>
+                <td>6º</td>
+                <td><img src="imagens/riograndedosul.png"> Rio Grande do Sul</img></td>
+                <td class="total">10 693 929</td>
+            </tr>
+            <tr>
+                <td>7º</td>
+                <td><img src="imagens/pernambuco.jpg"> Pernambuco</img></td>
+                <td class="total">8 796 448</td>
+            </tr>
+            <tr>
+                <td>8º</td>
+                <td><img src="imagens/ceara.png"> Ceará</img></td>
+                <td class="total">8 452 381</td>
+            </tr>
+            <tr>
+                <td>9º</td>
+                <td><img src="imagens/pará.png"> Pará</img></td>
+                <td class="total">7 581 051</td>
+            </tr>
+            <tr>
+                <td>10º</td>
+                <td><img src="imagens/santacatarina.png"> Santa Catarina</img></td>
+                <td class="total">6 248 436</td>
+            </tr>
+            <tr>
+                <td>11º</td>
+                <td><img src="imagens/goias.png"> Goiás</img></td>
+                <td class="total">6 003 788</td>
+            </tr>
+            <tr>
+                <td>12º</td>
+                <td><img src="imagens/maranhao.png"> Maranhão</img></td>
+                <td class="total">6 574 789</td>
+            </tr>
+            <tr>
+                <td>13º</td>
+                <td><img src="imagens/amazonas.jpg"> Amazonas</img></td>
+                <td class="total">3 483 985</td>
+            </tr>
+            <tr>
+                <td>14º</td>
+                <td><img src="imagens/espiritosanto.png"> Espírito Santo</img></td>
+                <td class="total">3 514 952</td>
+            </tr>
+            <tr>
+                <td>15º</td>
+                <td><img src="imagens/paraiba.png"> Paraíba</img></td>
+                <td class="total">3 766 528</td>
+            </tr>
+            <tr>
+                <td>16º</td>
+                <td><img src="imagens/matogrosso.png"> Mato Grosso</img></td>
+                <td class="total">3 035 122</td>
+            </tr>
+            <tr>
+                <td>17º</td>
+                <td><img src="imagens/riograndenorte.png"> Rio Grande do Norte</img></td>
+                <td class="total">3 168 027</td>
+            </tr>
+            <tr>
+                <td>18º</td>
+                <td><img src="imagens/alagoas.png"> Alagoas</img></td>
+                <td class="total">3 120 494</td>
+            </tr>
+            <tr>
+                <td>19º</td>
+                <td><img src="imagens/piaui.png"> Piauí</img></td>
+                <td class="total">3 118 360</td>
+            </tr>
+            <tr>
+                <td>20º</td>
+                <td><img src="imagens/distritofederal.png"> Distrito Federal</img></td>
+                <td class="total">2 570 160</td>
+            </tr>
+            <tr>
+                <td>21º</td>
+                <td><img src="imagens/matogrossodosul.png"> Mato Grosso do Sul</img></td>
+                <td class="total">2 449 024</td>
+            </tr>
+            <tr>
+                <td>22º</td>
+                <td><img src="imagens/sergipe.png"> Sergipe</img></td>
+                <td class="total">2 068 017</td>
+            </tr>
+            <tr>
+                <td>23º</td>
+                <td><img src="imagens/rondonia.png"> Rondônia</img></td>
+                <td class="total">1 562 409</td>
+            </tr>
+            <tr>
+                <td>24º</td>
+                <td><img src="imagens/tocantins.png"> Tocantins</img></td>
+                <td class="total">1 383 445</td>
+            </tr>
+            <tr>
+                <td>25º</td>
+                <td><img src="imagens/acre.png"> Acre</img></td>
+                <td class="total">733 559</td>
+            </tr>
+            <tr>
+                <td>26º</td>
+                <td><img src="imagens/amapa.png"> Amapá</img></td>
+                <td class="total">669 526</td>
+            </tr>
+            <tr>
+                <td>27º</td>
+                <td><img src="imagens/roraima.png"> Roraima</img></td>
+                <td class="total">450 479</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <td></td>
+                <td class="total"><strong>190.568,963</strong></td>
+            </tr>
+
+        </tfoot>
+    </table>
+</body>
+</html>
